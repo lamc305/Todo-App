@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  margin: 65px auto 25px;
+  max-width: 680px;
+  color: white;
+}
+
+.header h1 {
+  letter-spacing: 11px;
+  font-size: 1.7rem;
+}
+
+.moon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}

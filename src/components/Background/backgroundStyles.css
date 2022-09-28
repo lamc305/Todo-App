@@ -1,0 +1,26 @@
+.backgroundApp {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  min-width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.backgroundTop {
+  background-image: url('../../assets/bg-mobile-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundBottom {
+  background-color: hsl(235, 21%, 11%);
+}
+
+
+@media screen and (min-width: 560px) {
+  .backgroundTop {
+    background-image: url('../../assets/bg-desktop-dark.jpg');
+  }
+}
