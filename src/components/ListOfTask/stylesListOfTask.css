@@ -72,14 +72,16 @@
   color: hsl(220, 98%, 61%);
 }
 
-input[type=checkbox]+label {
-  color: #ccc;
-  font-style: italic;
+.actions input[type="radio"] {
+  opacity: 0;
 }
 
-input[type=checkbox]:checked+label {
-  color: #0964aa;
-  font-style: normal;
+.actions label:hover {
+  color: hsl(236, 33%, 92%);
+}
+
+.actions input[type="radio"]:checked~span {
+  color: hsl(220, 98%, 61%);
 }
 
 @media screen and (min-width: 560px) {
@@ -90,6 +92,10 @@ input[type=checkbox]:checked+label {
 
 @media screen and (max-width: 560px) {
   .action__taskFooter {
+    display: none;
+  }
+
+  .filters {
     display: none;
   }
 }

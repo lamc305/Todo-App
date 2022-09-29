@@ -36,5 +36,4 @@ function Task({ task, id, isComplete }) {
     </div>
   )
 }
-
 export default Task
