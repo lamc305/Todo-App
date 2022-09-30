@@ -11,8 +11,11 @@ node_modules
 dist
 dist-ssr
 *.local
-
+.vscode
 # Editor directories and files
+README-template.md
+style-guide.md
+README.md
 .vscode/*
 !.vscode/extensions.json
 .idea
