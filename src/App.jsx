@@ -1,3 +1,4 @@
+import Attribution from "./components/Attribution"
 import Background from "./components/Background"
 import ContainerTasks from "./components/ContainerTasks"
 import Form from "./components/Form"
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Form />
         <ContainerTasks />
+        <Attribution />
       </StateContextProvider>
     </div>
   )
