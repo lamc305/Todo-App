@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://todo-app-lamc305.vercel.app/)
+- Live Site URL: [Todo app | Fronted Mentor](https://todo-app-lamc305.vercel.app/)
 
 ## My process
 
