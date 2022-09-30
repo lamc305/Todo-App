@@ -70,10 +70,25 @@
 }
 
 .task__delete {
+
   color: hsl(237, 14%, 26%);
   font-size: 1.8rem;
   display: flex;
   justify-content: center;
   padding-right: 10px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 560px) {
+  .task__text:hover~.task__delete {
+    opacity: 1;
+  }
+
+  .task__delete:hover {
+    opacity: 1;
+  }
+
+  .task__delete {
+    opacity: 0;
+  }
 }

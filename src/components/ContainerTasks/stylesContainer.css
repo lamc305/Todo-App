@@ -11,3 +11,14 @@
   border-block-color: hsl(236, 33%, 92%);
   color: hsl(236, 9%, 61%);
 }
+
+.footerText {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  text-align: center;
+  color: hsl(233, 14%, 35%);
+}
+
+.footerTextLight {
+  color: hsl(236, 9%, 61%);
+}

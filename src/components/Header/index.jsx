@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import moon from '../../assets/icon-moon.svg'
 import sun from '../../assets/icon-sun.svg'
 import { StateContext } from '../../context/stateContext'
@@ -6,6 +6,10 @@ import './headerStyles.css'
 function Header() {
 
   const { darkMode, setDarkMode } = useContext(StateContext)
+
+  useEffect(() => {
+    localStorage.setItem('theme', darkMode)
+  }, [darkMode])
 
   const handleDarkMode = () => {
     setDarkMode(!darkMode)

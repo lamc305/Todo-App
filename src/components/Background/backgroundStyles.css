@@ -28,6 +28,10 @@
 
 
 @media screen and (min-width: 560px) {
+  .backgroundApp {
+    grid-template-rows: 1.5fr 3fr;
+  }
+
   .backgroundTop {
     background-image: url('../../assets/bg-desktop-dark.jpg');
   }

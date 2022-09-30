@@ -1,0 +1,28 @@
+.attribution {
+  width: 50vw;
+  position: absolute;
+  bottom: 3%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: hsl(234, 39%, 85%);
+}
+
+.attribution p {
+  font-size: 1.7rem;
+  color: hsl(234, 11%, 52%);
+}
+
+.attributionLight a {
+  color: hsl(235, 19%, 35%);
+}
+
+.attributionLight p {
+  color: hsl(236, 9%, 61%)
+}

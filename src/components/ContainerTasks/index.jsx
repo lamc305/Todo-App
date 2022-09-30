@@ -24,6 +24,7 @@ function ContainerTasks() {
         <TaskFooter />
       </section>
       <TaskFooterResponsive />
+      <p className={`footerText ${darkMode ? '': 'footerTextLight'}`}>Drag and Drop to reorder list</p>
     </>
   )
 }

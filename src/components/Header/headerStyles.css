@@ -2,18 +2,25 @@
   display: flex;
   justify-content: space-between;
   width: 85vw;
-  margin: 65px auto 25px;
+  margin: 40px auto 25px;
   max-width: 680px;
   color: white;
 }
 
 .header h1 {
   letter-spacing: 11px;
-  font-size: 1.7rem;
+  font-size: 3.5rem;
 }
 
 .moon {
   height: 25px;
   width: 25px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 560px) {
+  .header {
+    margin: 75px auto 50px;
+
+  }
 }
