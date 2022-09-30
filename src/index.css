@@ -3,10 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .App {
   min-height: 100%;
   min-width: 100%;
+}
+
+html,
+body {
+  font-size: 10px;
 }
