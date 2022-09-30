@@ -14,13 +14,25 @@
   background-size: cover;
 }
 
+.backgroundTopLight {
+  background-image: url('../../assets/bg-mobile-light.jpg');
+}
+
 .backgroundBottom {
   background-color: hsl(235, 21%, 11%);
+}
+
+.backgroundBottomLight {
+  background-color: hsl(0, 0%, 98%);
 }
 
 
 @media screen and (min-width: 560px) {
   .backgroundTop {
     background-image: url('../../assets/bg-desktop-dark.jpg');
+  }
+
+  .backgroundTopLight {
+    background-image: url('../../assets/bg-desktop-light.jpg');
   }
 }

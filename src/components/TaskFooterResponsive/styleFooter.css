@@ -1,0 +1,115 @@
+.taskFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(234, 11%, 52%);
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 0.8rem;
+}
+
+.taskFooterLight {
+  color: hsl(236, 9%, 61%);
+}
+
+.action__taskFooter {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.taskFooter p:last-child {
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 35px;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: hsl(235, 24%, 19%);
+  color: hsl(234, 11%, 52%);
+  width: 85vw;
+  margin: 30px auto;
+  max-width: 680px;
+  min-height: auto;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.filters {
+  font-weight: bold;
+}
+
+.actionsLight {
+  background-color: hsl(0, 0%, 98%);
+  filter: drop-shadow(0 0 0.07rem hsl(235, 19%, 35%));
+}
+
+.actions__text {
+  cursor: pointer;
+}
+
+.taskFooter__clear:hover {
+  color: hsl(236, 33%, 92%);
+}
+
+.taskFooter__clearLight:hover {
+  color: hsl(235, 19%, 35%);
+}
+
+.filters input[type="radio"] {
+  opacity: 0;
+}
+
+.filters label:hover,
+.actions label:hover {
+  color: hsl(236, 33%, 92%);
+}
+
+.filterLight label:hover,
+.actionsLight label:hover {
+  color: hsl(235, 19%, 35%);
+  cursor: pointer;
+}
+
+.filters input[type="radio"]:checked~span {
+  color: hsl(220, 98%, 61%);
+}
+
+.actions input[type="radio"] {
+  opacity: 0;
+}
+
+.actions label:hover {
+  color: hsl(236, 33%, 92%);
+  cursor: pointer;
+}
+
+.actionsLight label:hover {
+  cursor: pointer;
+  color: hsl(235, 19%, 35%);
+}
+
+.actions input[type="radio"]:checked~span {
+  color: hsl(220, 98%, 61%);
+}
+
+
+@media screen and (min-width: 560px) {
+  .actions {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .action__taskFooter {
+    display: none;
+  }
+
+  .filters {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.listOfTask__withoutTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(233, 14%, 35%);
+  height: 50px;
+  border-bottom: 1px solid hsl(233, 14%, 35%);
+}
+
+.listOfTask__withoutTaskLight {
+  border-block-color: hsl(236, 33%, 92%);
+  color: hsl(236, 9%, 61%);
+}

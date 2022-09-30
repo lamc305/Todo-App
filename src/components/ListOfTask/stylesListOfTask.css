@@ -7,95 +7,15 @@
   max-width: 680px;
   min-height: auto;
   overflow: hidden;
+
+}
+
+.listOfTasks__containerLight {
+  background-color: hsl(0, 0%, 98%);
+  filter: drop-shadow(0 0 0.07rem hsl(235, 19%, 35%));
+}
+
+.listContainer {
+  max-height: 504px;
   overflow-y: auto;
-  max-height: 420px;
-}
-
-.taskFooter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: hsl(234, 11%, 52%);
-  height: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 0.8rem;
-}
-
-.action__taskFooter {
-  display: flex;
-  width: 30%;
-  justify-content: space-around;
-}
-
-.taskFooter p:last-child {
-  cursor: pointer;
-}
-
-.listOfTask__withoutTask {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: hsl(233, 14%, 35%);
-  height: 50px;
-  border-bottom: 1px solid hsl(233, 14%, 35%);
-}
-
-.actions {
-  display: flex;
-  justify-content: space-around;
-  padding: 15px 35px;
-  border-radius: 5px;
-  margin-top: 50px;
-  background-color: hsl(235, 24%, 19%);
-  color: hsl(234, 11%, 52%);
-  width: 85vw;
-  margin: 30px auto;
-  max-width: 680px;
-  min-height: auto;
-  overflow: hidden;
-}
-
-.actions__text {
-  cursor: pointer;
-}
-
-.filters input[type="radio"] {
-  opacity: 0;
-}
-
-.filters label:hover {
-  color: hsl(236, 33%, 92%);
-}
-
-.filters input[type="radio"]:checked~span {
-  color: hsl(220, 98%, 61%);
-}
-
-.actions input[type="radio"] {
-  opacity: 0;
-}
-
-.actions label:hover {
-  color: hsl(236, 33%, 92%);
-}
-
-.actions input[type="radio"]:checked~span {
-  color: hsl(220, 98%, 61%);
-}
-
-@media screen and (min-width: 560px) {
-  .actions {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .action__taskFooter {
-    display: none;
-  }
-
-  .filters {
-    display: none;
-  }
 }

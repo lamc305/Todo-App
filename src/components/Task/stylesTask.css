@@ -7,14 +7,22 @@
   overflow: auto;
 }
 
+.taskContainerlight {
+  border-bottom-color: hsl(233, 11%, 84%);
+}
+
 .task__container div {
   display: grid;
   align-items: center;
 }
 
 .task__text {
-  color: hsl(234, 39%, 85%);
+  color: hsl(233, 11%, 84%);
   font-size: 1rem;
+}
+
+.task__textLight {
+  color: hsl(235, 19%, 35%);
 }
 
 .task__text p {
@@ -26,19 +34,32 @@
   color: hsl(233, 14%, 35%);
 }
 
-.task__check div {
-  height: 25px;
+.task__textCheckLight p {
+  text-decoration: line-through;
+  color: hsl(233, 11%, 84%);
+}
+
+.circle {
   width: 25px;
-  border: 1px solid hsl(237, 14%, 26%);
-  border-radius: 50%;
+  height: 25px;
   cursor: pointer;
+  border: 1px solid hsl(233, 14%, 35%);
+  border-radius: 50%;
+}
+
+.circleLight {
+  border-color: hsl(233, 11%, 84%);
+}
+
+.circle:hover {
+  background-clip: border-box;
+
 }
 
 .task__check .task__checked {
   display: flex;
-  border-color: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
   justify-content: center;
-  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%))
+  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
 }
 
 

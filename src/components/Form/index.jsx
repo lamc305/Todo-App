@@ -3,7 +3,7 @@ import { StateContext } from '../../context/stateContext'
 import './formStyles.css'
 function Form() {
 
-  const { state, setState } = useContext(StateContext)
+  const { state, setState, darkMode } = useContext(StateContext)
 
   useEffect(() => {
     localStorage.setItem('task', JSON.stringify(state))
@@ -22,9 +22,9 @@ function Form() {
   }
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
-      <div className='form__circle'></div>
-      <input type="text" name="todo" id="todo" placeholder="Create a new todo..." required />
+    <form className={`form ${darkMode ? '' : 'formLight'}`} onSubmit={handleSubmit}>
+      <div className={`form__circle  ${darkMode ? '' : 'form__circleLight'} `}></div>
+      <input type="text" name="todo" className={`todo ${darkMode ? '' : 'todoLight'} `} placeholder="Create a new todo..." required />
     </form>
   )
 }

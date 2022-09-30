@@ -1,17 +1,23 @@
 .form {
-  display: flex;
   align-items: center;
   border-radius: 5px;
   margin-top: 50px;
   background-color: hsl(235, 24%, 19%);
   width: 85vw;
   margin: 0 auto;
-  padding: 10px 15px;
   max-width: 680px;
-  height: 50px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: auto;
+  padding: 15px 0;
+  overflow: auto;
 }
 
-#todo {
+.formLight {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.todo {
   border: none;
   background: transparent;
   padding: 5px 10px;
@@ -19,13 +25,23 @@
   outline: none;
   background-color: hsl(235, 24%, 19%);
   width: 100%;
+  font-size: 1rem;
 }
 
-#todo:-webkit-autofill {
+.todoLight {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(235, 19%, 35%);
+}
+
+.todo:-webkit-autofill {
   transition: all 5000s ease-in-out 0s;
   transition-property: background-color, color
 }
 
+.todoLight:-webkit-autofill {
+  transition: all 5000s ease-in-out 0s;
+  transition-property: background-color, color
+}
 
 .form__circle {
   margin-right: 15px;
@@ -35,4 +51,9 @@
   width: 25px;
   border: 1px solid hsl(237, 14%, 26%);
   border-radius: 50%;
+  margin: 0 auto;
+}
+
+.form__circleLight {
+  border-color: hsl(233, 11%, 84%);
 }
