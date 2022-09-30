@@ -26,7 +26,6 @@ Users should be able to:
 
 ### Links
 
-- Repository URL: [Add solution URL here](https://github.com/lamc305/Todo-App)
 - Live Site URL: [Add live site URL here](https://todo-app-lamc305.vercel.app/)
 
 ## My process
