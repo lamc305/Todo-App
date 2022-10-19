@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mode Dark](./photos/modeDark.png)
-![Mode Light](./photos/modeLight.png)
+![Mode Dark](./photos/modeDark.webp)
+![Mode Light](./photos/modeLight.webp)
 
 
 ### Links
